@@ -1,0 +1,22 @@
+/* Add your custom styles here */
+.social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    /* color: aliceblue;*/
+} 
+
+.social-links li {
+    display: inline-block;
+    margin-left: 10px;
+    /* color: aliceblue; */
+}
+
+
+
+    .footer .nav-link {
+        color: red !important;
+    }
+
+

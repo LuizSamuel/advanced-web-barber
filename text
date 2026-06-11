@@ -1,0 +1,3 @@
+  <img class="card-img-top" src="./admin/uploads/' . $row["image_path"] . '">
+<img class="card-img-top" src="./admin/uploads/' . $row[" image_path"] . '">
+                    

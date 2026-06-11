@@ -1,0 +1,13 @@
+[05-Oct-2024 05:47:06 UTC] PHP Warning:  Undefined array key "category" in /home5/favorbra/public_html/admin/phpincludes/add_product.inc.php on line 6
+[05-Oct-2024 05:47:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category' cannot be null in /home5/favorbra/public_html/admin/phpincludes/add_product.inc.php:60
+Stack trace:
+#0 /home5/favorbra/public_html/admin/phpincludes/add_product.inc.php(60): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home5/favorbra/public_html/admin/phpincludes/add_product.inc.php on line 60
+[05-Oct-2024 06:15:50 UTC] PHP Warning:  Undefined array key "category" in /home5/favorbra/public_html/admin/phpincludes/addsalonservices.inc.php on line 6
+[05-Oct-2024 06:15:50 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Column 'category' cannot be null in /home5/favorbra/public_html/admin/phpincludes/addsalonservices.inc.php:60
+Stack trace:
+#0 /home5/favorbra/public_html/admin/phpincludes/addsalonservices.inc.php(60): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home5/favorbra/public_html/admin/phpincludes/addsalonservices.inc.php on line 60
+[06-Dec-2024 20:27:00 UTC] PHP Warning:  Undefined array key "category" in /home5/favorbra/public_html/admin/phpincludes/edit_productview.php on line 46

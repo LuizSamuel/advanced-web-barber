@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cards</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .hover-transform {
+            /* transition: transform 0.3s ease; */
+            -webkit-box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+            box-shadow: 0 1px 1px rgba(72, 78, 85, .6);
+            -webkit-transition: all .2s ease-out;
+            -moz-transition: all .2s ease-out;
+            -ms-transition: all .2s ease-out;
+            -o-transition: all .2s ease-out;
+            transition: all .2s ease-out;
+        }
+
+        .hover-transform:hover {
+            /* transform: translateY(-10px); */
+            -webkit-box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
+            box-shadow: 0 20px 40px rgba(72, 78, 85, .6);
+            -webkit-transform: translateY(-15px);
+            -moz-transform: translateY(-15px);
+            -ms-transform: translateY(-15px);
+            -o-transform: translateY(-15px);
+            transform: translateY(-15px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- Use row-cols-1 for small screens, row-cols-md-2 for medium screens, and row-cols-lg-4 for
+            large screens -->
+
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/Black Orchid.jpg" style="height: 150px; width: 223px;" alt="Black Orchid">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Black Orchid</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; "> It's a mix of dark flowers and
+                            spicy smells that make you
+                            feel mysterious and fancy.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/212 V I P_women.jpg" style="height: 150px; width: 223px;" alt="212 V I P_women">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b> V I P Women</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Blends innocence with sensuality,
+                            making a timeless statement.
+                            Suitable for women.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/212 V I P_Men.jpg" style="height: 150px; width: 223px;" alt="212 V I P_men">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>212 V I P Men</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px;">With its beautiful design and
+                            long-lasting scent, is perfect
+                            for gifting or personal use for men.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/Invictus.jpg" style="height: 150px; width: 223px;" alt="Invictus">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Invictus</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Invictus for men: a lasting scent in
+                            a stunning design, perfect for gifting or personal use.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/belt.jpg" style="height: 150px; width: 223px;" alt="Leather Belt">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Leather Belt</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Elevate your style with our premium
+                            leather belts. Timeless elegance meets durability for every occasion.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/naviforcewatch.jpg" style="height: 150px; width: 223px;" alt="Naviforce Watch">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Naviforce Watch</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Elevate your style with our premium
+                            Naviforce watches: Timeless elegance, unmatched precision.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/wallet.jpg" style="height: 150px; width: 223px;" alt="Leather Wallet">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Leather Wallet</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Elevate your style with our premium
+                            leather wallets Classic luxury, everyday convenience.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/wigs-removebg.png" style="height: 150px; width: 223px;" alt="wigs-removebg">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Human wigs</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Upgrade your style effortlessly
+                            with our human hair wigs. Experience natural beauty and versatility.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/watchchain2.jpg" style="height: 150px; width: 223px;" alt="Luxury jewelry set">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Luxury jewelry set</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Elevate your elegance with our
+                            curated collection. Complete with a watch, necklace, and earrings.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <div style="background: linear-gradient(#B5B9B6);"> <img class="card-img-top" src="./images/watchearing.png" style="height: 150px; width: 180px;" alt="Luxury jewelry set"></div>
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Luxury jewelry set</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Elevate your elegance with our
+                            curated collection. Complete with a watch, necklace, and earrings.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/watchchain.jpg" style="height: 150px; width: 223px;" alt="Luxury jewelry set">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Luxury jewelry set</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Elevate your elegance with our
+                            curated collection. Complete with a watch, necklace, and earrings.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/Cool waters.jpg" style="height: 150px; width: 223px;" alt="Cool Water">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Cool Water perfume</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Refresh your senses with our Cool Water perfume. Embrace invigorating freshness and timeless allure.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/Graffiti Escada.jpg" style="height: 150px; width: 223px;" alt="Graffiti Escada">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Graffiti Escada perfume</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Ignite your senses with our Graffiti Escada perfume. Experience vibrant energy and irresistible allure.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/Gucci Flora.jpg" style="height: 150px; width: 223px;" alt="Gucci Flora">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Gucci Flora perfume</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">Indulge in the timeless elegance of our Gucci Flora perfume. Embrace floral a captivating allure.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card  hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="./images/Si.jpg" style="height: 150px; width: 223px;" alt="Si">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b>Si perfume</b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; ">
+                            Discover the essence of sophistication with Si perfume. Embrace timeless allure and captivating elegance.</span><br>
+                        Cost: ksh<span class="cost">10</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card hover-transform" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" src="<?php echo htmlspecialchars($target_file); ?>" style="height: 150px; width: 223px;" alt="<?php echo htmlspecialchars($name); ?>">
+                    <div class="card-body" style="margin-top: -40px;"><br>
+                        <h5 class="card-title" style="font-size: 10px; "><b><?php echo htmlspecialchars($name); ?></b></h5>
+                        <!-- Display cost and details here -->
+                        Details: <span class="details" style="font-size: 10px; "><?php echo htmlspecialchars($description); ?></span><br>
+                        Cost: ksh<span class="cost"><?php echo htmlspecialchars($cost); ?></span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Duplicate the above card three more times within this row -->
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">15</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">5</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 14rem; margin-bottom: 20px;">
+                    <img class="card-img-top" alt="Service Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        Details: <span class="details"></span><br>
+                        Cost: ksh<span class="cost">0</span><br><br>
+                        <p class="d-flex justify-content-between align-items-center" style="padding-left: 50px;">
+                            <a href="#" class="btn btn-primary d-none">Add to Cart</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Repeat for other columns -->
+
+        </div>
+        <!-- Repeat the above row three more times to create four rows -->
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    <script>
+        // Add event listeners for card hover and hover out
+        document.querySelectorAll('.card').forEach(function(card) {
+            card.addEventListener('mouseenter', function() {
+                // Hide buttons on other cards
+                document.querySelectorAll('.card .btn').forEach(function(button) {
+                    button.classList.add('d-none');
+                });
+
+                // Show buttons on the hovered card
+                card.querySelectorAll('.btn').forEach(function(button) {
+                    button.classList.remove('d-none');
+                });
+            });
+
+            card.addEventListener('mouseleave', function() {
+                // Hide buttons on mouse leave
+                card.querySelectorAll('.btn').forEach(function(button) {
+                    button.classList.add('d-none');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+<?php
+// Database connection parameters
+$host = "localhost";
+$user = "root";
+$password = "";
+$database = "favor";
+
+// Create connection
+$connection = mysqli_connect($host, $user, $password, $database);
+
+// Check connection
+if (!$connection) {
+    die("Connection failed: " . mysqli_connect_error());
+}
+
+// SQL query to fetch products data from the database
+$sql = "SELECT name, description, cost, image_path FROM products";
+$result = $connection->query($sql);
+// Close the database connection
+$connection->close();
+?>
